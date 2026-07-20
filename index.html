@@ -1,0 +1,160 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Emmanuel Awili| Professional Class B Driver - Kisumu</title>
+<style>
+  :root{
+    --blue:#0d47a1;
+    --green:#2e7d32;
+    --whatsapp:#25D366;
+    --bg:#f8f9fa;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI',Arial,sans-serif;scroll-behavior:smooth;}
+  body{background:var(--bg);color:#333;}
+
+  /* NAVBAR */
+  nav{position:fixed;top:0;width:100%;background:rgba(13,71,161,0.95);backdrop-filter:blur(10px);padding:15px;z-index:1000;}
+  nav a{color:#fff;text-decoration:none;margin:0 12px;font-weight:500;}
+  nav a:hover{color:#ffeb3b;}
+
+  /* HERO */
+  .hero{height:90vh;background:linear-gradient(rgba(0,0,0,0.6),rgba(13,71,161,0.7)),url('https://images.unsplash.com/photo-1449965408869-eaa3f722fa90?q=80&w=2070') center/cover; display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;color:#fff;padding:20px;}
+  .hero h1{font-size:2.2rem;margin-bottom:10px;animation:fadeIn 1s ease;}
+  .hero p{font-size:1.1rem;margin-bottom:20px;}
+  .btn{padding:14px 25px;border:none;border-radius:50px;text-decoration:none;font-weight:bold;margin:8px;display:inline-block;transition:0.3s;cursor:pointer;}
+  .btn-call{background:var(--green);color:#fff;}
+  .btn-whatsapp{background:var(--whatsapp);color:#fff;}
+  .btn:hover{transform:scale(1.05);}
+
+  /* SECTIONS */
+  section{padding:60px 20px;max-width:1000px;margin:auto;}
+  h2{text-align:center;color:var(--blue);margin-bottom:25px;font-size:1.8rem;}
+  
+  /* ABOUT */
+  .about{display:flex;gap:20px;flex-wrap:wrap;align-items:center;}
+  .about img{width:100%;max-width:300px;border-radius:15px;box-shadow:0 4px 10px rgba(0,0,0,0.2);}
+  .about-text{flex:1;}
+
+  /* SERVICES */
+  .services{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px;}
+  .service-card{background:#fff;padding:20px;border-radius:12px;text-align:center;box-shadow:0 3px 8px rgba(0,0,0,0.1);transition:0.3s;}
+  .service-card:hover{transform:translateY(-5px);border-top:4px solid var(--blue);}
+
+  /* GALLERY */
+  .gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:15px;}
+  .gallery img{width:100%;height:180px;object-fit:cover;border-radius:10px;cursor:pointer;transition:0.3s;}
+  .gallery img:hover{transform:scale(1.05);}
+
+  /* CONTACT */
+  .contact{background:#fff;padding:30px;border-radius:15px;box-shadow:0 4px 12px rgba(0,0,0,0.1);}
+  .contact-info p{margin:10px 0;font-size:1.1rem;}
+  .contact-info a{color:var(--blue);text-decoration:none;font-weight:bold;}
+
+  footer{background:var(--blue);color:#fff;text-align:center;padding:20px;margin-top:40px;}
+
+  @keyframes fadeIn{from{opacity:0;transform:translateY(20px);}to{opacity:1;transform:translateY(0);}}
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero" id="home">
+  <h1>EMMANUEL AWILI</h1>
+  <p>Professional Class B Driver | Awasi, Kisumu County | Licensed Since 2024</p>
+  <a href="tel:0715561046" class="btn btn-call">📞 Call Now</a>
+  <a href="https://wa.me/254715561046?text=Hello%20Gorm,%20I%20need%20a%20driver%20in%20Kisumu" class="btn btn-whatsapp">💬 WhatsApp</a>
+</section>
+
+<section id="about">
+  <h2>About Me</h2>
+  <div class="about">
+    <img src="00.jpg">
+    <div class="about-text">
+      <p>
+        I’m <b> Emmanuel Awili</b>, a reliable and professional Class B driver based in <b>Awasi, Kisumu County</b>. 
+        I’ve been driving since <b>2024</b> with a clean record and extensive knowledge of routes in 
+        Kisumu, Awasi, Muhoroni, Chemelil, Sondu, and Kericho.
+      </p>
+      <p>
+        My mission is to provide safe, punctual, and professional driving services for companies, families, and individuals. 
+        I’m sober, customer-friendly, and I take great care of vehicles.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="services">
+  <h2>My Services</h2>
+  <div class="services">
+    <div class="service-card">🚗 Company Driver</div>
+    <div class="service-card">👔 Private Chauffeur</div>
+    <div class="service-card">📦 Goods & Parcel Delivery</div>
+    <div class="service-card">✈️ Airport Transfers - Kisumu</div>
+    <div class="service-card">🏫 School / Staff Van Driver</div>
+    <div class="service-card">🛒 Errands & Logistics</div>
+  </div>
+</section>
+
+<section id="gallery">
+  <h2>Gallery</h2>
+  <div class="gallery">
+    <!-- Replace these with your own car photos -->
+    <img src="00.jpg"style="width:350px;height:350px;border-radius:80%;object-fit:cover;">
+    
+    <img src="01.jpg"style="width:350px;height:350px;border-radius:80%;object-fit:cover;">
+    <img src="02.jpg"style="width:350px;height:350px;border-radius:80%;object-fit:cover;">
+    <img src="Nuch.jpg"style="width:350px;height:350px;border-radius:80%;object-fit:cover;">
+  </div>
+  <p style="text-align:center;margin-top:10px;font-size:14px;"></p>
+</section>
+
+<section id="contact">
+  <h2>Contact Me</h2>
+  <div class="contact">
+    <div class="contact-info">
+      <p>📞 <b>Phone:</b> <a href="tel:0715561046">0715 561 046</a></p>
+      <p>📧 <b>Email:</b> <a href="mailto:emmanuelmuregi@gmail.com">emmanuelmuregi@gmail.com</a></p>
+      <p>📍 <b>Location:</b> Awasi, Kisumu County, Kenya</p>
+      <p>🕒 <b>Available:</b> 24/7 for bookings</p>
+    </div>
+    <div style="text-align:center;margin-top:20px;">
+      <a href="tel:0715561046" class="btn btn-call">Call Me</a>
+      <a href="https://wa.me/254715561046" class="btn btn-whatsapp">WhatsApp Me</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026  Emmanuel Awili | Professional Class B Driver | Kisumu</p>
+</footer>
+
+<script>
+  // Smooth scroll for nav links
+  document.querySelectorAll('nav a').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+      e.preventDefault();
+      document.querySelector(this.getAttribute('href')).scrollIntoView({behavior:'smooth'});
+    });
+  });
+
+  // Gallery lightbox effect
+  document.querySelectorAll('.gallery img').forEach(img => {
+    img.addEventListener('click', () => {
+      window.open(img.src, '_blank');
+    })
+  })
+
+  console.log("Website loaded for Gorm Emmanuel");
+</script>
+
+</body>
+</html>
