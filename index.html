@@ -55,9 +55,34 @@
   footer{background:var(--blue);color:#fff;text-align:center;padding:20px;margin-top:40px;}
 
   @keyframes fadeIn{from{opacity:0;transform:translateY(20px);}to{opacity:1;transform:translateY(0);}}
+  .floating-whatsapp{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    width:60px;
+    height:60px;
+    background:#25D366;
+    color:white;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:30px;
+    text-decoration:none;
+    box-shadow:0 4px 10px rgba(0,0,0,.3);
+    z-index:9999;
+    transition:.3s;
+}
+
+.floating-whatsapp:hover{
+    transform:scale(1.1);
+}
 </style>
 </head>
 <body>
+  <a href="https://wa.me/254715561046" class="floating-whatsapp" target="_blank">
+    💬
+  </a>
 
 <nav>
   <a href="#home">Home</a>
